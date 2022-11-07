@@ -54,7 +54,7 @@ const done = document.getElementById("done")
 
     // Purchase done modal
     done.addEventListener('click', () => {
-        redeemSucessfull.classList.toggle("hidden")
+        purchaceSucessfull.classList.toggle("hidden")
     })
 
 
