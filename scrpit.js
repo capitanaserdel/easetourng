@@ -19,7 +19,7 @@ let purchaseBtn = document.getElementById("purchaseBtn");
     dollar.addEventListener('keyup', () => {
         let digit = dollar.value
         tourCoin.value = Number(digit) * 500
-        if(digit.length >= 1){
+        if(digit.length >= 1 ){
             document.getElementById("purchaseBtn").disabled = false
             purchaseBtn.classList.remove("bg-gray-200")
             purchaseBtn.classList.add("bg-green-500")
@@ -89,7 +89,7 @@ let inputtCoin = document.getElementById("inputtCoin");
 let receivedollar = document.getElementById("receivedollar");
     inputtCoin.addEventListener('keyup', () => {
         let digit = inputtCoin.value
-        receivedollar.value = Number(digit) * 0.0005
+        receivedollar.value = Number(digit) / 500
     })
 
 
